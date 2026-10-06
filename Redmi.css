@@ -1,0 +1,39 @@
+#box{
+    width: 1280px;
+    height: 720px;
+    background: lightblue;
+    padding: 50px;
+    box-sizing:border-box;
+    background: url("C:\\html\\mercedes-amg-one-for-sale.jpg");
+}
+
+#box h1{
+    background: rgba(255, 255, 255, 0.384);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.384),
+}
+
+@keyframes animacao{
+    from{
+        background: orange;
+        border-radius: 0px;
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        background: blue;
+        border-radius: 200px;
+        top: 100px;
+        left: 800px;
+        color: white;
+    }
+}
+
+#box{
+    width: 1280px;
+    height: 720px;
+    text-align: center;
+    padding: 50px;
+    background: orange;
+    position: relative;
+    animation: animacao 10s 2s 3 alternate;
+}
